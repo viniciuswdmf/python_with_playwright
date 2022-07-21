@@ -1,0 +1,11 @@
+<testsuite name="specs.login.Login no Ecommerce Porto Seguro" tests="1" errors="0" failures="0" skipped="0" time="7.542462" timestamp="2022-07-21T10:28:13.592761" hostname="CTNDELLGMJCP63"><testcase classname="specs.login.Login no Ecommerce Porto Seguro" name="Fazer login com sucesso" status="passed" time="7.542462"><system-out>
+<![CDATA[
+@scenario.begin
+  Cenário: Fazer login com sucesso
+    Quando realizar login com CPF e senha válidos ... passed in 7.494s
+    Então deve validar que o login foi realizado com sucesso ... passed in 0.049s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

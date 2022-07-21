@@ -19,7 +19,7 @@ def before_all(context):
     # Instância do page_helpers:
     context.page_helper = PageHelper(context)
     # Instância do factory:
-    context.factory = Factory(context)
+    # context.factory = Factory(context)
 
     #mailosaur
     context.mailosaur_serverid = "zlp5m1hh"
