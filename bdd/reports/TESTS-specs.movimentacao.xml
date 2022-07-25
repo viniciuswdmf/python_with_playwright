@@ -1,0 +1,13 @@
+<testsuite name="specs.movimentacao.Cadastrar Movimentações na ferramenta" tests="1" errors="0" failures="0" skipped="0" time="17.826811" timestamp="2022-07-25T14:59:53.143581" hostname="CTNDELLGMJCP63"><testcase classname="specs.movimentacao.Cadastrar Movimentações na ferramenta" name="Cadastrar uma movimentação" status="passed" time="17.826811"><system-out>
+<![CDATA[
+@scenario.begin
+  Cenário: Cadastrar uma movimentação
+    Dado que esteja logado ... passed in 7.575s
+    Dado que tenha acessado a pagina de movimentacoes ... passed in 5.085s
+    Quando preencher os dados necessarios ... passed in 5.142s
+    Então a movimentacao deve ser cadastrada ... passed in 0.024s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

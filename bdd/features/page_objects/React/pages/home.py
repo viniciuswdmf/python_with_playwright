@@ -8,3 +8,7 @@ class ReactHome():
     
     def __init__(self, context):
         pass
+
+    def acessar_movimentacao(self, context):
+        context.page.click(body_elements['MENU_MOVIMENTACAO']) 
+        time.sleep(5)
