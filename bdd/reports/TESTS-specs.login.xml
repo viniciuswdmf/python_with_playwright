@@ -1,9 +1,9 @@
-<testsuite name="specs.login.Login no Ecommerce Porto Seguro" tests="1" errors="0" failures="0" skipped="0" time="7.514395" timestamp="2022-07-25T14:43:16.589449" hostname="CTNDELLGMJCP63"><testcase classname="specs.login.Login no Ecommerce Porto Seguro" name="Fazer login com sucesso" status="passed" time="7.514395"><system-out>
+<testsuite name="specs.login.Login no Ecommerce Porto Seguro" tests="1" errors="0" failures="0" skipped="0" time="8.442207" timestamp="2022-07-26T10:26:30.069339" hostname="CTNDELLGMJCP63"><testcase classname="specs.login.Login no Ecommerce Porto Seguro" name="Fazer login com sucesso" status="passed" time="8.442207"><system-out>
 <![CDATA[
 @scenario.begin
   Cenário: Fazer login com sucesso
-    Quando realizar login com CPF e senha válidos ... passed in 7.500s
-    Então deve validar que o login foi realizado com sucesso ... passed in 0.015s
+    Quando realizar login com CPF e senha válidos ... passed in 8.411s
+    Então deve validar que o login foi realizado com sucesso ... passed in 0.032s
 
 @scenario.end
 --------------------------------------------------------------------------------

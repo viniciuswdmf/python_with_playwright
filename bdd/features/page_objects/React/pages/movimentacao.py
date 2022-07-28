@@ -22,3 +22,15 @@ class ReactMovimentacao():
         locator = context.page.locator(body_elements['TOAST_SUCESS'])
         expect(locator).to_be_visible()
 
+    def alterar_movimentacao(self, context, descricao, valor, interessado, conta):
+        context.page.fill(movimentacao_elements['DESCRICAO'], descricao)
+        context.page.fill(movimentacao_elements['VALOR'], valor)
+        context.page.fill(movimentacao_elements['INTERESSADO'], interessado)
+        context.page.locator(movimentacao_elements['CONTA_ALTERAR']).select_option(value=conta)
+        context.page.click(movimentacao_elements['BOTAO_SALVAR']) 
+        time.sleep(5)
+
+    def validar_alteracao(self, context):
+        locator = context.page.locator(body_elements['TOAST_SUCESS'])
+        expect(locator).to_be_visible()
+

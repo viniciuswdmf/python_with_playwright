@@ -1,10 +1,10 @@
 #language: pt
 
 @login
-Funcionalidade: Login no Ecommerce Porto Seguro
-    Como um usuário do Ecommerce
+Funcionalidade: Login no site de teste
+    Como um usuário do site de teste
     Quero realizar login 
-    Para realizar compras ou guardar produtos para comprar mais tarde no Ecommerce.
+    Para realizar tarefas no site
 
 Cenário: Fazer login com sucesso
     Quando realizar login com CPF e senha válidos
