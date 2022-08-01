@@ -4,6 +4,7 @@ from features.page_objects.React.pages.home import *
 from features.page_objects.React.pages.movimentacao import *
 from features.page_objects.React.pages.extrato import *
 from features.page_objects.React.pages.conta import *
+from features.page_objects.React.pages.registro import *
 
 class ReactIndex():
 
@@ -14,3 +15,4 @@ class ReactIndex():
         self.movimentacao = ReactMovimentacao(context)
         self.extrato = ReactExtrato(context)
         self.conta = ReactConta(context)
+        self.registro = ReactRegistro(context)
