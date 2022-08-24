@@ -18,7 +18,15 @@ class ReactLogin():
         context.page.click(login_elements['INP_BTN_LOGIN']) 
         time.sleep(5)
 
+    def fazer_login_invalido(self, context, login):
+        context.page.fill(login_elements['INP_LOGIN'], login)   
+        context.page.click(login_elements['INP_BTN_LOGIN']) 
+
     def validar_login_correto(self, context):
         locator = context.page.locator(body_elements['TOAST_SUCESS'])
         expect(locator).to_be_visible()
+
+    def validar_login_incorreto(self, context, mensagem):
+        locator = context.page.locator(body_elements['TOAST_ERRO'])
+        expect(locator).to_have_text(mensagem)
 

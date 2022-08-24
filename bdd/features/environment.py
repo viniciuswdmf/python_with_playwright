@@ -1,7 +1,6 @@
 from playwright.sync_api import sync_playwright
 from features.page_objects.React.react_page_index import *
 from features.helper.page_helper import *
-from features.fixtures.factory import *
 from behave import use_fixture
 from behave.model import Status
 import time
